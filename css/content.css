@@ -1,0 +1,12 @@
+.name{
+    position: absolute;
+    bottom: 12rem;
+    left: 10rem;
+    width: 400px;
+    height: 100px;
+}
+.name input{
+    background: url("../img/Button.png");
+    width: 208px;
+    height: 43px;
+}

@@ -1,0 +1,32 @@
+@import "leftMenu.css";
+@import "content.css";
+.main_content{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-auto-rows: 100vh;
+
+}
+
+body{
+    margin: 0;
+}
+
+.menu{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    background: url("../img/leftMenu.png");
+    background-size: 100% 100%;
+}
+
+.content{
+    overflow: hidden;
+}
+
+.small_screen{
+    display: none;
+}
+
+@media (max-width: 1366px) {
+
+}
